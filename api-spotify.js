@@ -1,9 +1,7 @@
 const chakram = require('chakram');
-const chai = require('chai');
+const expect = chakram.expect;
 
 describe("Spotify API", function() {
-
-    var expect = chakram.expect;
 
     before(function () {
         var spotifyErrorSchema = {
